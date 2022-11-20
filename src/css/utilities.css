@@ -38,6 +38,10 @@ h2::selection {
   color: var(--bg-primary);
 }
 
+.btn-secondary:hover {
+  background: var(--secondary-color);
+}
+
 /* add hover to resume button */
 .btn-primary:hover {
   background: var(--secondary-color);
@@ -78,7 +82,7 @@ h2::selection {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   padding: 1rem;
 }
 
@@ -136,12 +140,12 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-one.png) center center/cover;
+  background: url(../assets/project/juira.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-two.png) center center/cover;
+  background: url(../assets/project/dogs.png) center center/cover;
 }
 
 /* Project 3 */

@@ -9,8 +9,8 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
+  --primary-color: #48cae4;
+  --secondary-color: #90e0ef;
   --bg-primary: #ffffff;
   --text-color: #222222;
   --text-color-two: #ffffff;
@@ -32,8 +32,8 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
+  --primary-color: #48cae4;
+  --secondary-color: #90e0ef;
   --bg-primary: #000000;
   --text-color: #ffffff;
   --text-color-two: #222222;
@@ -143,7 +143,7 @@ body {
 .profile-image {
   width: 150px;
   border-radius: 50%;
-  animation: bounce 1s infinite alternate;
+  animation: bounce 2s infinite alternate;
 }
 
 @keyframes bounce {
@@ -154,6 +154,15 @@ body {
   to {
     transform: translateY(-10px);
   }
+}
+
+.header-container {
+  height: 100vh;
+  /* background-image: url(../assets/bg.jpg); */
+}
+
+h2 {
+  margin-bottom: 50px;
 }
 
 .division {
@@ -181,6 +190,17 @@ body {
   grid-gap: 0.9rem;
 }
 
+#technologies {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 5rem;
+  align-items: center;
+}
+
+#technologies .skill-icons a {
+  padding: 1rem;
+}
+
 .card .project-bio p {
   font-size: 0.83rem;
 }
@@ -202,7 +222,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
-  top: 160px;
+  top: 40px;
   left: 10px;
 }
 
